@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BantayBALITA</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #0073e6;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #005bb5;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+        .fact-check {
+            background-color: white;
+            margin: 15px 0;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .fact-check h2 {
+            color: #0073e6;
+        }
+        .fact-check p {
+            line-height: 1.6;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to BantayBALITA</h1>
+        <p>Ang iyong pinagkakatiwalaang source para sa pag-verify ng impormasyon.
+</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#recent-checks">Mga Kamakailang Fact Check</a>
+        <a href="#categories">Mga Kategorya</a>
+        <a href="#submit">Magsumite ng Claim</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+
+        <!-- Mga Kamakailang Fact Check -->
+        <section id="recent-checks">
+            <h2>Mga Kamakailang Fact Check</h2>
+            
+            <div class="fact-check">
+                <h2>Claim: "Ang Earth ay patag."</h2>
+                <p><strong>Verdict:</strong> False</p>
+                <p>Ang pag-aangkin na ito ay pinabulaanan ng siyentipikong ebidensya na itinayo noong nakaraang mga siglo. Ang lupa ay isang oblate spheroid, hindi patag.</p>
+            </div>
+
+            <div class="fact-check">
+                <h2>Claim: "Ang mga bakuna ay nagdudulot ng autism."</h2>
+                <p><strong>Verdict:</strong> False</p>
+                <p>Ang malawak na pananaliksik ay nagpakita na walang kaugnayan sa pagitan ng mga bakuna at autism. Ang pag-aangkin na ito ay lubusang sinisiraan ng siyentipikong komunidad.</p>
+            </div>
+
+            <div class="fact-check">
+                <h2>Claim: "Climate change is a hoax."</h2>
+                <p><strong>Verdict:</strong> False</p>
+                <p>Climate change is a scientifically proven phenomenon supported by a vast body of research. It is not a hoax.</p>
+            </div>
+        </section>
+
+        <!-- Categories Section -->
+        <section id="categories">
+            <h2>Mga Kategorya</h2>
+            <ul>
+                <li><a href="#politics">Politics</a></li>
+                <li><a href="#health">Health</a></li>
+                <li><a href="#science">Science</a></li>
+                <li><a href="#technology">Technology</a></li>
+            </ul>
+        </section>
+
+        <!-- Submit a Claim Section -->
+        <section id="submit">
+            <h2>Magsumite ng Claim</h2>
+            <p>Kung nakatagpo ka ng claim na pinaniniwalaan mong kailangang suriin ang katotohanan, mangyaring isumite ito sa ibaba:</p>
+            <form>
+                <label for="claim">Claim:</label><br>
+                <textarea id="claim" name="claim" rows="4" cols="50" placeholder="Ilagay ang claim dito..."></textarea><br><br>
+                <label for="source">Source (optional):</label><br>
+                <input type="text" id="source" name="source" placeholder="Ilagay ang pinagmulan ng claim..."><br><br>
+                <input type="submit" value="Isumite">
+            </form>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Makipag-ugnayan sa Amin</h2>
+            <p>Kung mayroon kang anumang mga tanong o feedback, huwag mag-atubiling makipag-ugnayan sa:</p>
+            <p>Email: contact@factchecker.com</p>
+            <p>Phone: +123 456 7890</p>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2024 BantayBALITA | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
